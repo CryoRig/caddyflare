@@ -19,7 +19,7 @@ jobs:
         uses: lucacome/docker-image-update-checker@v1.1.0
         with:
           base-image: library/caddy:alpine
-          image: cryorig/caddycf
+          image: cryorig/caddyflare
 
       - name: Login to DockerHub
         uses: docker/login-action@v1
@@ -33,5 +33,5 @@ jobs:
         with:
           context: "${{ github.workspace }}"
           push: true
-          tags: cryorig/caddycf:latest
+          tags: cryorig/caddyflare:latest
         if: steps.baseupdatecheck.outputs.needs-updating == 'true'
