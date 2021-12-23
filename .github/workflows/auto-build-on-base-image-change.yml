@@ -4,8 +4,6 @@ name: Regular base image update check
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
   schedule:
     - cron: "23 13 3 * *"
 
@@ -35,5 +33,5 @@ jobs:
         with:
           context: "${{ github.workspace }}"
           push: true
-          tags: cryorig/caddycf:latest # update for your image
+          tags: cryorig/caddycf:latest
         if: steps.baseupdatecheck.outputs.needs-updating == 'true'
