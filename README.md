@@ -1,5 +1,6 @@
 # caddyflare
 
-Adds the cloudflare mod to caddyV2, auto updates whenever [Caddy](https://hub.docker.com/_/caddy) updates and pushes it to [Docker Hub](https://hub.docker.com/r/cryorig/caddyflare)
-
+Adds the cloudflare mod to caddyV2  
+Automatically updates whenever the [Caddy:alpine](https://hub.docker.com/_/caddy) image does and pushes it to [Docker Hub](https://hub.docker.com/r/cryorig/caddyflare).  
+Check only runs once per Week (Friday Night)  
 No warranty no anything... You know how this works
