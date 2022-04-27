@@ -34,4 +34,5 @@ jobs:
           context: "${{ github.workspace }}"
           push: true
           tags: cryorig/caddyflare:latest
+          outputs: type=image,compression=gzip
         if: steps.baseupdatecheck.outputs.needs-updating == 'true'
