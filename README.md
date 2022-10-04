@@ -9,4 +9,4 @@ It automatically rebuilds once per Week (Friday Night UTC), **IF** the [Caddy](h
 # No warranty no anything... You know how this works
 Use at your own risk...  
 **IF** something breaks i will try to fix it, but no guarantees.  
-As allways, check what you download from the internet before you use it ;)
+As always, check what you download from the internet before you use it ;)
