@@ -1,6 +1,6 @@
 # caddyflare
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/CryoRig/caddyflare/Regular%20base%20image%20update%20check?style=for-the-badge)
-![Docker Pulls](https://img.shields.io/docker/pulls/cryorig/caddyflare?style=for-the-badge)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/CryoRig/caddyflare/.github/workflows/auto-build-on-base-image-change.yml?style=flat-square&logo=githubactions)
+![Docker Pulls](https://img.shields.io/docker/pulls/cryorig/caddyflare?style=flat-square&logo=docker)
 
 This Repository adds the [Cloudflare DNS Module](https://github.com/caddy-dns/cloudflare) to the official [caddy V2](https://github.com/caddyserver/caddy) Image.  
 
